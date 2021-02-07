@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Penjadwal Janji</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>Informasi Pribadi</legend>
+		<br>
+		<tr>
+			<td>Nama</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td>No. Telepon</td>
+			<td><input type="text" name="notelp"></td>
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td>Alamat Email</td>
+			<td><input type="text" name="email">
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td><label for="tll">Tanggal Lahir</label></td>
+			<td>
+				<input type="date" name="tgl" id="tgl">
+			</td>
+		</tr>
+	</fieldset>
+	<fieldset>
+		<legend>Permintaan Pertemuan</legend>
+		<br>
+		<tr>
+			<td>Tujuan Pertemuan</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td>Tingkatan Kepentingan Pertemuan</td>
+			<td><input type="range" name="Kepentingan" min="0" max="10" step=".5" value="7"></td>
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td><label for="tgl">Tanggal</label></td>
+			<td>
+				<input type="date" name="tgl" id="tgl">
+			</td>
+		</tr>
+		<br>
+		<br>
+		<tr>
+			<td><label for="tll">Waktu</label></td>
+			<td>
+				<input type="time" name="time" id="time">
+			</td>
+		</tr>
+	</fieldset>
+	<br>
+	<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
